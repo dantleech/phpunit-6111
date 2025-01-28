@@ -38,6 +38,9 @@ deprecations being triggered.
         <include>
             <directory suffix=".php">src/</directory>
         </include>
+        <exclude>
+            <directory suffix="Controller.php">src/</directory>
+        </exclude>
     </source>
 ```
 
